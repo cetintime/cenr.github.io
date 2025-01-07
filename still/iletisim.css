@@ -1,0 +1,132 @@
+/* Logo Konteyneri */
+.logo-konteyner {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.logo {
+    max-width: 100px; /* Logo boyutunu ayarlamak için */
+    height: auto;
+}
+
+ /* Genel ayarlar */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+        }
+
+        /* Konteyner */
+        .menu-konteyner {
+            width: 1024px;
+            margin: 0 auto;
+            background-color: #114060;
+        }
+
+        /* Menü */
+        .menu {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            overflow: hidden;
+        }
+
+        .menu li {
+            float: left;
+            width: 20%; /* 5 menü için eşit genişlik */
+            text-align: center;
+        }
+
+        .menu a {
+            display: block;
+            padding: 15px 0;
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .menu a:hover {
+            background-color: #bcbec0;
+        }
+
+        /* Form Alanı */
+        .iletisim-form-konteyner {
+            width: 980px;
+            margin: 40px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .iletisim-form-konteyner h2 {
+            font-size: 26px;
+            color: #333;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .iletisim-form-konteyner label {
+            font-size: 18px;
+            color: #333;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        .iletisim-form-konteyner input,
+        .iletisim-form-konteyner select,
+        .iletisim-form-konteyner textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .iletisim-form-konteyner textarea {
+            height: 150px;
+        }
+
+        .iletisim-form-konteyner input[type="submit"] {
+            background-color: #333;
+            color: white;
+            cursor: pointer;
+            font-size: 18px;
+        }
+
+        .iletisim-form-konteyner input[type="submit"]:hover {
+            background-color: #575757;
+        }
+
+        .iletisim-form-konteyner input[type="reset"] {
+            background-color: #C2B59B;
+            color: #333;
+            cursor: pointer;
+            font-size: 18px;
+        }
+
+        .iletisim-form-konteyner input[type="reset"]:hover {
+            background-color: #999;
+        }
+
+        /* Footer */
+        .footer {
+            width: 990px;
+            margin: 20px auto;
+            padding: 15px;
+            background-color: #e6e7e8;
+            color: black;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        .footer a {
+            color: #00bfff;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
